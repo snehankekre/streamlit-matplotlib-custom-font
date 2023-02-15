@@ -95,7 +95,6 @@ def load_pairplot_data():
 # while setting the font properties of a subplot, the code simply moves on to the next subplot, ignoring the one that caused the error:
 
 
-@st.cache_data
 def create_pairplot(g):
     if g.axes is not None:
         axes = g.axes.flat
